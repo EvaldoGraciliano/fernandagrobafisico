@@ -1,0 +1,217 @@
+/* Alinhamento para container, linha e colua
+Horizontal --> justify-content-center
+Vertical --> align-items-center
+Itens individuais na vertical --> align-self-center 
+
+*/
+
+/* estlizaçao do topo */
+
+html, body {
+  overflow-x: hidden !important;
+  overflow-x: scroll !important;
+ 
+}
+
+.logo {
+  background-color: #d266a9;
+}
+
+.tamanhoimglogo{
+  max-height: 600px;
+}
+
+.subtitulonomeas15 {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  font-weight:300;
+}
+
+.cores {
+  color: white;
+  background-color: blue;
+
+}
+
+
+.nome{
+  font-family: 'Festive', cursive;
+  font-size: 2.5rem;
+  color:white;
+  line-height: 1;
+}
+
+.subtitulonome{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:1.9rem;
+  color:rgb(28, 27, 27);
+  line-height: 1;
+  text-align:center;
+  font-weight: bold;
+ }
+
+.subtitulo{
+ font-family: 'Kanit', sans-serif;
+ font-size:1.5rem;
+ color:rgb(95, 91, 91);
+ line-height: 1;
+ text-align:center;
+ 
+}
+
+/* estilizaçao dos icons */
+.tituloicons{
+  font-size: 2rem;
+  color: #d266a9;
+  line-height: 1;
+  
+
+}
+
+.tamanhoicons{
+  font-size: 140px;
+  color:rgb(95, 91, 91);
+  line-height: 1.2;
+ 
+ }
+
+ .tamanhoicons2{
+  font-size: 110px;
+  color:rgb(95, 91, 91);
+  line-height: 1.2;
+ }
+
+
+ /* Estilização de benefício com foto do livro  font-stretch:condensed;*/
+
+ .tamanhoiconslivro{
+  font-size: 50px;
+  color:#d266a9;
+  line-height: 0;
+ }
+
+ .estilocheck {
+  color:rgb(95, 91, 91);
+  font-size: 1.4rem;
+  vertical-align: 0.8rem;
+  line-height:0;
+  text-align: left;
+ 
+ }
+
+
+ /* estilização depoimento */
+
+ .titulodepoimento{
+  font-size: 2rem;
+  text-align: center;
+  color:rgb(95, 91, 91);
+  line-height: 1;
+}
+
+
+.imgdepoimento{
+  max-width: 200px;
+  margin:auto;
+}
+
+.nomedepoimento{
+  font-size: 1.5rem;
+}
+
+.depoimento {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.btn-sucess {
+  background-color: #d266a9;
+  border-radius: 25px;
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:3px;
+  width: 309px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  
+}
+
+/* estilizaçao dos botões CTA */
+a {
+  text-decoration:none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: pureple;
+}
+
+
+/* estilizaçao contatao */
+.twhatsapp{
+  color: green;
+  font-size: 90px;
+}
+
+
+ 
+
+.animartitulo{
+  animation-name: slide;
+  animation-duration:7s ;
+  transform: translateX(-180px);
+  animation-fill-mode: forwards;
+
+}
+
+.animarsubtitulo {
+  animation-name: slide;
+  animation-duration:4s ;
+}
+
+
+@keyframes slide  {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity:1;
+  }
+}
+
+
+ @media (min-width:766px){
+   .imgdepoimento {
+   max-width: 200px;
+   
+   }
+
+   .tablet {
+     max-width:500px;
+     margin: 0 auto;
+     
+   }
+
+ 
+
+  .subtitulonome{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:3rem;
+    color:rgb(28, 27, 27);
+    line-height: 1;
+    text-align:center;
+    font-weight: bold;
+   }
+
+ 
+.subtitulonomeas15 {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  font-weight:300;
+}
+
