@@ -161,7 +161,7 @@ a:hover {
 
 .animartitulo{
   animation-name: slide;
-  animation-duration:7s ;
+  animation-duration:5s ;
   transform: translateX(-180px);
   animation-fill-mode: forwards;
 
